@@ -1,0 +1,140 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Hobo bd;
+}
+
+:root {
+    --primary-color: #5e0270;
+    --acent-color: #d7ccc8;
+    --text-color: #333;
+    --bg-color: #fafafa;
+}
+
+
+body {
+    font-family: Monospace;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 28px;
+    background-color: var(--primary-color);
+    color: var(--acent-color);
+    font-size: 24px;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    color: var(--acent-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--acent-color);
+}
+
+footer p{
+    text-align: center;
+    padding: 25px 0;
+    font-size: 26px;
+}
+
+.foto {
+    background-image: url(img/wal_172619-chinese-lanterns-7591296_1280.jpg);
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.about {
+    text-align: center;
+    padding: 30px 0;
+    margin: 30px 0;
+}
+
+.about h2 {
+    font-size: 24px;
+    color: var(--primary-color);
+}
+
+.about p {
+    font-size: 18px;
+}
+
+.abc {
+    font-weight: bolder;
+}
+
+nav a:hover {
+    transition: 2sec;
+    color: rgb(162, 0, 255);
+    
+}
+
+.menu{
+    margin: 100px 0;
+    background-image:  url(https://tse2.mm.bing.net/th/id/OIP.OqbkS9zuNB-cQTbJd2-_8AHaFj?rs=1&pid=ImgDetMain&o=7&rm=3);
+    background-size: cover;
+    margin: 100px 0;
+    height: 100vh;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.menu-img{
+    text-align: center;
+    margin-bottom: 50px;   
+}
+
+.menu-title{
+    text-align: center;
+    margin-bottom: 50px;
+    color: var(--primary-color);
+    padding-top: 45px;
+    font-size: 60px;
+}
+
+.menu-item{
+    font-size: 30px;
+    color: var(--text-color);
+}
+
+.menu-item_title{
+    margin: 15px;
+    color: var(--primary-color);
+    font-size: 50px;
+    font-weight: 800;
+    
+}
+
+.menu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+ul{
+    list-style-type: circle;
+}
+.menu-item {
+    font-family: fantasy;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.menu-item li{
+    padding: 5px 0;
+    text-shadow: rgb(70, 36, 112) 1px 0 10px;
+}
